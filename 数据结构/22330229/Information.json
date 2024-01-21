@@ -1,0 +1,296 @@
+{
+    "points": [
+        {
+            "id": 1,
+            "name": "一号食堂",
+            "introduce": "一号食堂，物美价廉#"
+        },
+        {
+            "id": 20,
+            "name": "二号食堂",
+            "introduce": "二号食堂，民族特色丰富#"
+        },
+        {
+            "id": 3,
+            "name": "一号教学楼",
+            "introduce": "一号教学楼，理科教学楼#"
+        },
+        {
+            "id": 4,
+            "name": "二号教学楼",
+            "introduce": "二号教学楼，文科教学楼#"
+        },
+        {
+            "id": 5,
+            "name": "三号教学楼",
+            "introduce": "三号教学楼，工科教学楼#"
+        },
+        {
+            "id": 6,
+            "name": "图书馆",
+            "introduce": "图书馆，藏书丰富#"
+        },
+        {
+            "id": 7,
+            "name": "行政楼",
+            "introduce": "行政楼，学校行政办公楼#"
+        },
+        {
+            "id": 8,
+            "name": "操场",
+            "introduce": "操场，学校体育活动场地#"
+        },
+        {
+            "id": 9,
+            "name": "体育馆",
+            "introduce": "体育馆，满足学生多样化的体育需求#"
+        },
+        {
+            "id": 10,
+            "name": "超市",
+            "introduce": "超市,满足学生生活需求#"
+        }
+    ],
+    "edges": [
+        {
+            "id": 1,
+            "startPointId": 1,
+            "endPointId": 4,
+            "length": 100,
+            "direction": "正东",
+            "introduce": "一号食堂到二号教学楼#"
+        },
+        {
+            "id": 2,
+            "startPointId": 4,
+            "endPointId": 1,
+            "length": 100,
+            "direction": "正西",
+            "introduce": "二号教学楼到一号食堂#"
+        },
+        {
+            "id": 3,
+            "startPointId": 1,
+            "endPointId": 8,
+            "length": 50,
+            "direction": "东南",
+            "introduce": "一号食堂到操场#"
+        },
+        {
+            "id": 4,
+            "startPointId": 8,
+            "endPointId": 1,
+            "length": 50,
+            "direction": "西北",
+            "introduce": "操场到一号食堂#"
+        },
+        {
+            "id": 5,
+            "startPointId": 1,
+            "endPointId": 10,
+            "length": 20,
+            "direction": "正北",
+            "introduce": "一号食堂到超市#"
+        },
+        {
+            "id": 6,
+            "startPointId": 10,
+            "endPointId": 1,
+            "length": 20,
+            "direction": "正南",
+            "introduce": "超市到一号食堂#"
+        },
+        {
+            "id": 7,
+            "startPointId": 20,
+            "endPointId": 4,
+            "length": 100,
+            "direction": "正西",
+            "introduce": "二号食堂到二号教学楼#"
+        },
+        {
+            "id": 8,
+            "startPointId": 4,
+            "endPointId": 20,
+            "length": 100,
+            "direction": "正东",
+            "introduce": "二号教学楼到二号食堂#"
+        },
+        {
+            "id": 9,
+            "startPointId": 20,
+            "endPointId": 6,
+            "length": 50,
+            "direction": "正北",
+            "introduce": "二号食堂到图书馆#"
+        },
+        {
+            "id": 10,
+            "startPointId": 6,
+            "endPointId": 20,
+            "length": 50,
+            "direction": "正南",
+            "introduce": "图书馆到二号食堂#"
+        },
+        {
+            "id": 11,
+            "startPointId": 20,
+            "endPointId": 9,
+            "length": 70,
+            "direction": "西南",
+            "introduce": "二号食堂到体育馆#"
+        },
+        {
+            "id": 12,
+            "startPointId": 9,
+            "endPointId": 20,
+            "length": 70,
+            "direction": "东北",
+            "introduce": "体育馆到二号食堂#"
+        },
+        {
+            "id": 13,
+            "startPointId": 3,
+            "endPointId": 4,
+            "length": 50,
+            "direction": "正南",
+            "introduce": "一号教学楼到二号教学楼#"
+        },
+        {
+            "id": 14,
+            "startPointId": 4,
+            "endPointId": 3,
+            "length": 50,
+            "direction": "正北",
+            "introduce": "二号教学楼到一号教学楼#"
+        },
+        {
+            "id": 15,
+            "startPointId": 3,
+            "endPointId": 6,
+            "length": 100,
+            "direction": "正东",
+            "introduce": "一号教学楼到图书馆#"
+        },
+        {
+            "id": 16,
+            "startPointId": 6,
+            "endPointId": 3,
+            "length": 100,
+            "direction": "正西",
+            "introduce": "图书馆到一号教学楼#"
+        },
+        {
+            "id": 17,
+            "startPointId": 3,
+            "endPointId": 7,
+            "length": 50,
+            "direction": "正西",
+            "introduce": "一号教学楼到行政楼#"
+        },
+        {
+            "id": 18,
+            "startPointId": 7,
+            "endPointId": 3,
+            "length": 50,
+            "direction": "正东",
+            "introduce": "行政楼到一号教学楼#"
+        },
+        {
+            "id": 19,
+            "startPointId": 4,
+            "endPointId": 5,
+            "length": 50,
+            "direction": "正南",
+            "introduce": "二号教学楼到三号教学楼#"
+        },
+        {
+            "id": 20,
+            "startPointId": 5,
+            "endPointId": 4,
+            "length": 50,
+            "direction": "正北",
+            "introduce": "三号教学楼到二号教学楼#"
+        },
+        {
+            "id": 21,
+            "startPointId": 4,
+            "endPointId": 8,
+            "length": 70,
+            "direction": "西南",
+            "introduce": "二号教学楼到操场#"
+        },
+        {
+            "id": 22,
+            "startPointId": 8,
+            "endPointId": 4,
+            "length": 70,
+            "direction": "东北",
+            "introduce": "操场到二号教学楼#"
+        },
+        {
+            "id": 23,
+            "startPointId": 4,
+            "endPointId": 9,
+            "length": 50,
+            "direction": "东南",
+            "introduce": "二号教学楼到体育馆#"
+        },
+        {
+            "id": 24,
+            "startPointId": 9,
+            "endPointId": 4,
+            "length": 50,
+            "direction": "西北",
+            "introduce": "体育馆到二号教学楼#"
+        },
+        {
+            "id": 25,
+            "startPointId": 5,
+            "endPointId": 8,
+            "length": 50,
+            "direction": "西北",
+            "introduce": "三号教学楼到操场#"
+        },
+        {
+            "id": 26,
+            "startPointId": 8,
+            "endPointId": 5,
+            "length": 50,
+            "direction": "东南",
+            "introduce": "操场到三号教学楼#"
+        },
+        {
+            "id": 27,
+            "startPointId": 5,
+            "endPointId": 9,
+            "length": 50,
+            "direction": "东北",
+            "introduce": "三号教学楼到体育馆#"
+        },
+        {
+            "id": 28,
+            "startPointId": 9,
+            "endPointId": 5,
+            "length": 50,
+            "direction": "西南",
+            "introduce": "体育馆到三号教学楼#"
+        },
+        {
+            "id": 29,
+            "startPointId": 7,
+            "endPointId": 10,
+            "length": 30,
+            "direction": "西南",
+            "introduce": "行政楼到超市#"
+        },
+        {
+            "id": 30,
+            "startPointId": 10,
+            "endPointId": 7,
+            "length": 30,
+            "direction": "东北",
+            "introduce": "超市到行政楼#"
+        }
+    ]
+}
