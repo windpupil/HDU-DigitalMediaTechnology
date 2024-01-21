@@ -1,0 +1,9 @@
+img=imread('头像.jpg');
+img_gray=rgb2gray(img);
+figure(1);
+subplot(1,2,1);
+imshow(img);
+title('原始彩色图像');
+subplot(1,2,2);
+imshow(img_gray);
+title('灰度图像');
